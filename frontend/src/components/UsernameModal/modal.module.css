@@ -1,0 +1,46 @@
+.overlay {
+  background: linear-gradient(180deg, #1f1f1f, #121212);
+  backdrop-filter: blur(10px);
+  width: 100%;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.modal {
+  width: 100%;
+  padding: 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 500px;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.modalTitle {
+  color: rgb(213, 211, 211);
+  font-size: 1.5rem;
+}
+
+.modal input {
+  background: #000;
+  border: 1px solid #444;
+  padding: 15px;
+  border-radius: 12px;
+  color: white;
+}
+
+.modal button {
+  background: #1f1f1f;
+  border: 1px solid #444;
+  padding: 15px;
+  border-radius: 12px;
+  color: white;
+  cursor: pointer;
+}

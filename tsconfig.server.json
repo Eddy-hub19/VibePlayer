@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+
+    "strict": false,
+    "noImplicitAny": false,
+
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "outDir": "./backend/dist",
+    "resolveJsonModule": true
+  },
+  "include": ["backend/src/**/*.ts"]
+}
